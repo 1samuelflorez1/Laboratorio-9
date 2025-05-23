@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+  color: #007acc;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Estilo para la sección de habilidades con saltos de línea */
+p:nth-of-type(2) {
+  background-color: #e8f4fc;
+  padding: 10px;
+  border-left: 4px solid #007acc;
+  font-style: italic;
+}
